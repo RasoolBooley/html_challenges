@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nested Tables Challenge</title>
+</head>
+<body>
+    
+<!-- attempting this weird table thing -->
+
+<!-- table made with rowspan and colspan -->
+
+    <h1>
+        First attempt at the nest table
+    </h1>
+
+
+     <table border="1px" width="400px" height="400px">
+       <tbody>
+           <tr>
+               <td>1</td>
+               <td colspan="3">2</td>
+            </tr>
+            
+            <tr>
+                <td rowspan="3">3</td>
+                <td>4</td>
+                <td>5</td>
+                <td  rowspan="2">6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td colspan="2">9</td>
+                <td>10</td>
+            </tr>
+       </tbody>
+     </table>
+
+<!-- same table but with the table inside of the table inside of the table -->
+
+
+     <h2>Second table different code</h2>
+
+<table border="1px">
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td colspan="2">2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>
+                <table border="1">
+                    <tr>
+                        <td>
+                            <table border="1">
+                                <tr>
+                                    <td>4</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>8</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                </table>
+            </td>
+               
+            
+        </tr>
+    </tbody>
+</table>
+
+
+</body>
+</html>

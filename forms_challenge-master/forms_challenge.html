@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coffee Shop Survey</title>
+</head>
+<body>
+    
+<h1>Survey</h1>
+
+<!-- Beginning of the survey with the personal information needed to be filled in -->
+
+<form>
+    <p>
+        Full Name:
+    </p>
+         <input type="text" name="text" id="text" placeholder="Name Here" required>
+    <p>
+        Cell number:
+    </p>
+         <input type="number">
+    <p>
+        Date of Birth
+    </p>
+         <input type="date" name="date" id="date" required>
+    <p>
+        Email Address
+    </p>
+          <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+    <p>
+        Gender
+    </p>
+        <select>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select required>
+
+        <!-- password for a survey? -->
+
+        <p>
+            Password
+        </p>
+
+        <input type="password" name="password" id="password">
+
+        <!-- survey questions here -->
+
+        <h2>Questions</h2>
+
+        <p>How often do you visit coffee shops?</p>
+
+            <select>
+                <option>Every day</option>
+                <option>A few times a week</option>
+                <option>Once a week</option>
+                <option>Once a month</option>
+                <option>Hardly</option>
+            </select>
+
+        <p>What is your favourite Coffee shop? Where is it located?</p>
+
+            <input type="text" name="text" id="text" required>
+
+        <p>What do you typically order to drink?</p>
+
+            <input type="text" name="text" id="text" required>
+
+        <p>Do you prefer...</p>
+
+        <p>
+            <input type="radio" name="dou" id="dou"> Large, Corporate Owned Coffee Shops.
+        </p>
+
+        <p>
+            <input type="radio" name="dou" id="dou">Small, Privately Owned Coffee Shops.
+        </p>
+
+        <p>If you have any comments about the survey or anything you would like to add please write it below.</p>
+
+        <textarea name="a box" id="" cols="60" rows="10"></textarea>
+
+        <p>
+            <button>Submit Survey</button>
+        </p>
+
+        <p>
+            <button><a style="text-decoration: none; color: black" href="https://rasoolbooley.github.io/forms_challenge/forms_challenge.html">Reset Survey</a></button>
+        </p>
+
+</form>
+
+
+
+</body>
+</html>
